@@ -3,33 +3,31 @@
 
 <head>
     <title>Temperature Converter</title>
-    <link rel="icon" href="calc.png" type="image/x-icon">
+    
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css">
     <script src="level.js"></script>
 </head>
-
+<html>
 <body>
-    <main>
-        <h1>Temperature Converter</h1>
-        <p>
-            <label>Fahrenheit</label>
-            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
-            oninput="Convert(this.value)"
-            onchange="Convert(this.value)">
-          </p>
-          <p>
-            <label>Celcius</label>
-          <input id="inputCelcius" type="number" placeholder="celcius"
-          oninput="Convert(this.value)"
-          onchange="Convert(this.value)">
-        </p>
-        <p>
-            <label>Kelvin</label>
-          <input id="inputkelvin" type="number" placeholder="kelvin"
-          oninput="Convert(this.value)"
-          onchange="Convert(this.value)">
-        </p>
+
+<h1>Temperature Converter</h1>
+
+<div>
+
+degrees Celsius <input id="c" onkeyup="convert('C')"> 
+</div>
+<div class="Fahrenheit">
+
+degrees Fahrenheit <input id="f" onkeyup="convert('F')">
+</div>
+
+
+
+
+</body>
+</html>
+
 
             <div class="footer">
                 <p>&copy;Chandrakanth Polisetty</p>
